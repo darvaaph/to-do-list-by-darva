@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+include 'database/db.php';
 
 if (isset($_GET['id']) && isset($_GET['status'])) {
     $id = intval($_GET['id']);
